@@ -1,7 +1,7 @@
 body {
     color:white;
     background: black;
-    margim: 0px;
+    margin: 0px;
 }
 
 
@@ -11,3 +11,16 @@ header{
     font-size: 32px;
     color: rgb(128, 10, 10);
 }
+
+section{
+    background: rgb(250, 203, 132);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 5%;
+}
+
