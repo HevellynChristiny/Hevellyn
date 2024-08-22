@@ -2,6 +2,7 @@ body {
     color:white;
     background: black;
     margin: 0px;
+    margin-bottom: 100px;
 }
 
 
@@ -12,7 +13,7 @@ header{
     color: rgb(128, 10, 10);
 }
 
-section{
+.chamada{
     background: rgb(250, 203, 132);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -24,3 +25,27 @@ section{
     margin-right: 5%;
 }
 
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.categoria-videos img{
+    opacity: 0.5;
+    height: 20px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid peru;
+}
+
+.categoria h2{
+    color:brown;
+}
