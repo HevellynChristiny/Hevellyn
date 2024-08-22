@@ -1,19 +1,19 @@
 body {
-    color:white;
+    color: white;
     background: black;
     margin: 0px;
     margin-bottom: 100px;
 }
 
 
-header{
+header {
     border-bottom: solid 2px white;
     padding: 20px;
     font-size: 32px;
     color: rgb(128, 10, 10);
 }
 
-.chamada{
+.chamada {
     background: rgb(250, 203, 132);
     padding-bottom: 80px;
     padding-top: 80px;
@@ -21,31 +21,31 @@ header{
     justify-content: center;
 }
 
-.chamada-texto{
+.chamada-texto {
     margin-right: 5%;
 }
 
-.categoria-videos{
+.categoria-videos {
     display: flex;
     overflow-x: auto;
     gap: 10px;
 }
 
-.categoria{
+.categoria {
     padding-left: 20px;
     padding-right: 20px;
 }
 
-.categoria-videos img{
+.categoria-videos img {
     opacity: 0.5;
     height: 20px;
 }
 
-.categoria-videos img:hover{
+.categoria-videos img:hover {
     opacity: 1.0;
     border: 1px solid peru;
 }
 
-.categoria h2{
-    color:brown;
+.categoria h2 {
+    color: brown;
 }
